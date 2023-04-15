@@ -20,7 +20,7 @@ public class Dia3ej1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        
+        int pablo=0;
          Scanner leer = new Scanner(System.in);
         
         System.out.println("ingrese un numero a sumar");
@@ -32,6 +32,12 @@ public class Dia3ej1 {
           int suma= numA + numB;
           System.out.println("la suma es  "+suma);
           
+          int numc = leer.nextInt();
+        
+          System.out.println("ingrese un numero a sumar");
+          numc = leer.nextInt();
+          int suma2= numc + numc;
+          System.out.println("la suma es  "+suma);
           
      
           
